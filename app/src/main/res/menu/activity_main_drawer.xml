@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--suppress ALL -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_prioritas"
+            android:icon="@android:drawable/ic_input_get"
+            android:title="Prioritas" />
+        <item android:title="Top Priority" />
+        <item android:title="Common Priority" />
+        <item android:title="Not Priority" />
+    </group>
+    <item
+        android:id="@+id/nav_aboutme"
+        android:icon="@android:drawable/ic_menu_info_details"
+        android:title="About me" />
+    <group />
+</menu>
